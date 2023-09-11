@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Geologica:wght@100;400&family=Orbit&family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0px auto;
+    background-color: #161616;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+nav{
+    width: 95%;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 50px;
+}
+header ul a{
+    text-decoration: none;
+    color: #fcfcfc;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    height: 50px;
+}
+header ul a:hover{
+    text-shadow: 0px 0px 15px rgb(252, 252, 252);
+    color: #ffffff;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.background p{
+    color: #fcfcfc;
+    font-family: Geologica;
+    font-size: 14vh;
+    text-align: center;
+}
+section{
+    background-color: #161616;
+    width: 100%;
+    padding: 1rem;
+}
+.titulo{
+    color: #fcfcfc;
+    font-size: 10vh;
+    font-family: Anton;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin-bottom: 3rem;
+}
+.texto{
+    color: #fcfcfc;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 1rem;
+}
+#experiencia{
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+#experiencia p{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.texto::first-letter {
+    margin-left: 1em;
+}
+.cardcontainer{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#container{
+    background-size: 5rem;
+    background-position: fixed;
+    box-shadow: inset 0px 20px 50px 0px rgba(0, 0, 0, 0.5);
+}
+.card{
+    width: 230px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(207deg, rgba(251,54,66,1) 0%, rgba(159,37,253,1) 100%);
+    color: #fcfcfc;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    margin: 2rem;
+}
+.card p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+.card h3{
+    font-size: 0.7rem;
+}
+#projetos{
+    padding: 2rem;
+}
+.divsides{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: inset 0px 20px 50px 0px rgba(0, 0, 0, 0.5);
+}
+.divleft{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.divright{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+.divright p{
+    padding-right: 1vw;
+    text-align: left;
+    font-size: 1.2vw;
+}
+.divposts{
+    width: 100%;
+    margin: 0px auto;
+}
+.divposts p{
+    width: 100%;
+}
+.postcontainer{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.postcontainer img{
+    width: 10%;
+    transition: filter 0.1s ease-in-out;
+}
+.postcontainer img:hover{
+    filter: brightness(110%);
+}
+.divsocials{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: inline-block;
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 30%;
+    transition: background-color 0.3s ease;
+    background-color: #fcfcfc;
+    margin: 2rem;
+    padding: 0;
+}
+.social img{
+    width: auto;
+    height: 100%;
+}
+.whatsapp:hover{
+    background-color: #32D951;
+    box-shadow: rgb(252, 252, 252, 0.5) 0px 0px 10px 0px;
+}
+.whatsapp img:hover{
+    filter: invert(1);
+}
+.linkedin:hover{
+    background-color: #0171AB;
+    box-shadow: rgb(252, 252, 252, 0.5) 0px 0px 10px 0px;
+}
+.linkedin img:hover{
+    filter: invert(1);
+}
+.github:hover{
+    background-color: #EB5332;
+    box-shadow: rgb(252, 252, 252, 0.5) 0px 0px 10px 0px;
+}
+.github img:hover{
+    filter: invert(1);
+}
+.email:hover{
+    background-color: #FABB00;
+    box-shadow: rgb(252, 252, 252, 0.5) 0px 0px 10px 0px;
+}
+.email img:hover{
+    filter: invert(1);
+}
+.footer{
+    color: #fcfcfc;
+    font-size: 0.8rem;
+    height: 3rem;
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projetocontainer{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    margin-top: 50px;
+}
+.projetocontainer img{
+    width: 70%;
+    border-radius: 1rem;
+    box-shadow: #0e0e0e 0px 0px 20px;
+}
+.desccontainer{
+    color: #fcfcfc;
+    padding: 0 2rem;
+}
+.desccontainer h1{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+}
+.desccontainer .texto{
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    section{
+        background-color: #161616;
+        width: 100%;
+        padding: 1rem;
+    }
+    #experiencia p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .divsocials{
+        display: flex;
+    }
+    .divsocials a{
+        margin: 1rem;
+        padding: 0;
+    }
+    .titulo{
+        color: #fcfcfc;
+        font-size: 7vh;
+        font-family: Anton;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        margin-bottom: 3rem;
+    }
+    .texto{
+        color: #fcfcfc;
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 1rem;
+    }
+    header{
+        width: 100%;
+        max-width: 100%;
+        height: 7vw;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    header ul li a{
+        font-size: 2.2vw;
+    }
+    nav{
+        height: 7vw;
+    }
+    .background p{
+        font-size: 7vh;
+    }
+    .containerimg{
+        width: 100%;
+    }
+    .projetocontainer{
+        display: block;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .projetocontainer img{
+        width: 100%;
+    }
+    .projetocontainer h1{
+        margin-top: 30px;
+    }
+}
