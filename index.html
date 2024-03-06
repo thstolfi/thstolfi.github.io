@@ -1,162 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V1Z8120FXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-V1Z8120FXX');
-  </script>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  <link rel="shortcut icon" href="images/iconpag.png">
-  <link rel="icon" href="images/st2.png" type="image/x-icon">
-  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
-  <title>Theilor Stolfi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theilor Stolfi</title>
+    <link rel="icon" href="assets/logo.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <img src="images/iconth.png" height="75%" width="auto" class="logo">
-      <ul>
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-    <div class="background">
-      <p>THEILOR STOLFI</p>
+    <div class="principal">
+        <img src="assets/logo.svg" class="shadow">
+        <p class="shadow"><span style="font-weight: 700;">THEILOR</span> STOLFI</p>
     </div>
-  <section id="experiencia">
-    <p class="titulo">EXPERIÊNCIA</p>
-    <p class="texto"><i>VERSATILIDADE</i>, é a palavra que define minha trajetória como desenvolvedor.
-      Desde sempre tive uma paixão por programação, utilizei minha habilidade em desenvolvimento e 
-      design para dar vida a projetos digitais. 
-    <p class="texto">
-      Ao desenvolver códigos, priorizo a organização e a modularidade, garantindo que cada componente 
-      possa ser reutilizado e personalizado com facilidade. Essa abordagem não apenas simplifica a manutenção futura, 
-      mas também permite que o design evolua e se adapte de acordo com as necessidades do projeto.
-    </p>
-  </section>
-  <section id="container">
-    <div class="cardcontainer">
-      <div class="card">
-        <h2>INGLÊS FLUENTE</h2>
-        <h3>Link Idiomas</h3>
-        <p>Fiz curso de Inglês durante 6 anos (2010 - 2016).<br>
-          Certificado Oxford Avançado.
-        </p>
-      </div>
-      <div class="card" style="background: linear-gradient(207deg, rgb(117, 233, 9) 0%, rgb(8, 121, 214) 100%);">
-        <h2>LÓGICA DA PROGRAMAÇÃO</h2>
-        <h3>Barriga Verde Cursos</h3>
-        <p>Cursei Lógica de Programação e estudei outros softwares, como Dreamweaver, Construct 2, Acess, entre outros.
-          Este foi meu primeiro contato com HTML, CSS e PHP.
-        </p>
-      </div>
-      <div class="card" style="background: linear-gradient(207deg, rgb(21, 104, 182)100%, rgb(7, 30, 233)0%);">
-        <h2>SISTEMAS DE INFORMAÇÃO</h2>
-        <h3>Unifebe</h3>
-        <p>Atualmente curso Sistemas de Informação na UNIFEBE, ingressei no ano de 2023.
-        </p>
-      </div>
-      <div class="card" style="background: linear-gradient(207deg, rgba(19,55,194,1) 0%, rgba(188,0,194,1) 100%);">
-        <h2>DISCOVER</h2>
-        <h3>Rocketseat</h3>
-        <p>Concluí o curso Discover da Rocketseat,
-          onde aprimorei meus conhecimentos em desenvolvimento web.
-          Procuro dar início ao curso Ignite em breve.
-        </p>
-      </div>
-      <div class="card" style="background: linear-gradient(207deg, rgb(239, 243, 18) 0%, rgb(228, 110, 13) 100%);">
-        <h2>JAVASCRIPT</h2>
-        <h3>Gustavo Guanabara</h3>
-        <p>No momento estou cursando Javascript com o prof. Gustavo
-          Guanabara. 
-        </p>
-      </div>
-    </div>
-  </section>
-  <section id="projetos">
-    <p class="titulo" id="projetos">PROJETOS</p>
-    <div class="projetocontainer">
-      <img src="images/cutdiscover.jpg">
-      <div class="desccontainer">
-        <h1 style="background-color: #631C5F;">Discover</h1>
-        <p class="texto">Este cartão de visita foi desenvolvido no curso Discover da Rocketseat, ele também possuí modo escuro/claro
-          com a ajuda de Javascript.
-        </p>
-        <a href="https://thstolfi.github.io/projeto-discovery/"><button>CONFIRA</button></a>
-      </div>
-    </div>
-    <div class="projetocontainer">
-      <img src="images/cuthort.jpg">
-      <div class="desccontainer">
-        <h1 style="background-color: #e9c70b;">Hort Ferramentas</h1>
-        <p class="texto">Desenvolvido para uma loja de ferramentas e ferragens, o antigo website estava datado e sem
-          formatação, então criei esse projeto simples para poder subir o website no ar novamente com uma cara nova.
-        </p>
-        <a href="https://hortferramentas.com.br/"><button>CONFIRA</button></a>
-      </div>
-    </div>
-    <div class="projetocontainer">
-      <img src="images/cutcard.jpg">
-      <div class="desccontainer">
-        <h1 style="background-color: #549986;">Card Creator</h1>
-        <p class="texto">Card Creator é um website simples desenvolvido para exercitar minhas habilidades em Javascript.
-          Consiste na criação de cards de acordo com o que o usuário digitar, também é possível excluir cards já criados.
-        </p>
-        <a href="https://thstolfi.github.io/CardCreator/"><button>CONFIRA</button></a>
-      </div>
-    </div>
-    <div class="projetocontainer">
-      <img src="images/cutthejourney.jpg">
-      <div class="desccontainer">
-        <h1 style="background-color: #E86617;">The Journey</h1>
-        <p class="texto">The Journey é um website fictício (ainda não responsivo) com o objetivo de aprimorar minhas skills em design e 
-          desenvolvimento web.
-        </p>
-        <a href="https://thstolfi.github.io/The-Journey/"><button>CONFIRA</button></a>
-      </div>
-    </div>
-    <div class="projetocontainer">
-      <img src="images/cutdragonborn.jpg">
-      <div class="desccontainer">
-        <h1 style="background-color: #50119c;">Dragonborn</h1>
-        <p class="texto">The Dragonborn é um website fictício inspirado em Skyrim. Nesse projeto utilizei Javascript para
-          alterar o conteúdo da página conforme o usuário interage.
-        </p>
-        <a href="https://thstolfi.github.io/TheDragonborn/"><button>CONFIRA</button></a>
-      </div>
-    </div>
-  </section>
-  <section>
-    <p class="titulo" id="contato">CONTATO</p>
-    <div class="divsocials">
-      <a href="https://wa.me/5547992709832" class="social whatsapp"><img src="images/wpp.png"></a>
-      <a href="https://www.linkedin.com/in/theilorstolfi/" class="social linkedin"><img src="images/linkedin.png"></a>
-      <a href="https://github.com/thstolfi" class="social github"><img src="images/github.png"></a>
-      <a href="mailto:thstolfi@gmail.com" class="social email"><img src="images/mail.png"></a>
-    </div>
-  </section>
-  <footer class="footer">
-    Theilor Stolfi© - thstolfi@gmail.com
-  </footer>
-  <script type="text/javascript" src="vanilla-tilt.js"></script>
-  <script type="text/javascript">
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 25,
-      speed: 400,
-      glare: true,
-    });
-  </script>
-  <script type="text/javascript" src="script.js"></script>
+    <section>
+        <h1>SOBRE MIM</h1>
+        <p class="text">Como desenvolvedor, sempre prezei pela versatilidade, e abraço a filosofia que a disciplina 
+            e a constância resulta em um crescimento contínuo. A versatilidade para mim não é apenas 
+            dominar várias linguagens e áreas, é também sobre <b>organização, eficiência e excelência.</b></p>
+        <p class="text">Embora minha paixão resida no front-end, não me limito a essa área. 
+            Estou sempre em busca de desafios e de aprender algo novo a cada dia.
+            Acredito que a diversidade de experiências me torna um desenvolvedor mais completo,
+            capaz de enfrentar qualquer obstáculo com criatividade e determinação.
+            <br>Atualmente trabalho na Hiper Software e curso Sistemas de Informação na UNIFEBE.</p>
+    </section>
+    <section>
+        <div class="centralizer">
+            <h1>CURSOS & CERTIFICADOS</h1>
+            <img src="assets/certified.svg" height="100px">
+        </div>
+        <div class="cards-holder">
+            <div class="card-certify">
+                <p class="card-title">Inglês Avançado</p>
+                <p class="card-loc">Link Idiomas</p>
+                <p class="card-date"><i>2010 - 2016</i></p>
+            </div>
+            <div class="card-certify">
+                <p class="card-title">Lógica de Programação</p>
+                <p class="card-loc">Barriga Verde</p>
+                <p class="card-date"><i>2018-2019</i></p>
+            </div>
+            <div class="card-certify">
+                <p class="card-title">Sistemas de Informação</p>
+                <p class="card-loc">UNIFEBE</p>
+                <p class="card-date"><i>2023 - 2026</i></p>
+            </div>
+            <div class="card-certify">
+                <p class="card-title">Discover</p>
+                <p class="card-loc">Rocketseat</p>
+                <p class="card-date"><i>2023</i></p>
+            </div>
+            <div class="card-certify">
+                <p class="card-title">Javascript</p>
+                <p class="card-loc">Gustavo Guanabara</p>
+                <p class="card-date"><i>2023</i></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1>HABILIDADES</h1>
+        <div class="centralizer">
+            <div class="cards-holder">
+                <div class="skill-card"><img title="HTML5" src="assets/html.png"></div>
+                <div class="skill-card"><img title="CSS3" src="assets/css.png"></div>
+                <div class="skill-card"><img title="Javascript" src="assets/javascript.png"></div>
+                <div class="skill-card"><img title="JSON" src="assets/json.png"></div>
+                <div class="skill-card"><img title="NodeJS" src="assets/nodejs.png"></div>
+                <div class="skill-card"><img title="Figma" src="assets/figma.png"></div>
+                <div class="skill-card"><img title="Java" src="assets/java.png"></div>
+                <div class="skill-card"><img title="Photoshop" src="assets/photoshop.png"></div>
+                <div class="skill-card"><img title="VSCode" src="assets/vscode.png"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1>PROJETOS</h1>
+        <div class="projects-holder">
+            <div class="project-desc">
+                <div id="project-description" class="content-desc shadow2">
+                    <p class="title">Discover
+                    </p>
+                    <p class="project-text">Projeto proposto pelo curso Discover da Rocketseat.
+                        O site é um cartão de visitas pessoal que conta com modo claro/noturno.
+                    </p>
+                </div>  
+            </div>
+            <div class="project-img">
+                <a id="src-site" href="https://thstolfi.github.io/projeto-discovery/" target="_blank">
+                <img id="imagem-projeto" src="assets/cutdiscover.jpg"  class="shadow2" width="850px">
+                </a>
+            </div>
+            <div class="project-selector">
+                <div class="select selected" id="discover">Discover</div>
+                <div class="select" id="thejourney">The Journey</div>
+                <div class="select" id="dragonborn">Dragonborn</div>
+                <div class="select" id="hort">Hort Ferramentas</div>
+                <div class="select" id="cardcreator">Card Creator</div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1>CONTATO</h1>
+        <div class="cards-holder">
+            <a href="https://api.whatsapp.com/send/?phone=5547992709832">
+                <div class="contact-card shadow"><img src="assets/whatsapp.png" height="50px" alt=""></div> 
+            </a>
+            <a href="https://github.com/thstolfi">
+                <div class="contact-card shadow"><img src="assets/github.png" height="50px" alt=""></div> 
+            </a>
+            <a href="https://www.linkedin.com/in/theilorstolfi/">
+                <div class="contact-card shadow"><img src="assets/linkedin.png" height="55px" alt=""></div> 
+            </a>
+            <a href="thstolfi@gmail.com">
+                <div class="contact-card shadow"><img src="assets/mail.png" height="50px" alt=""></div> 
+            </a>
+        </div>
+    </section>
+    <footer>
+        Theilor Stolfi - 2024
+        <br>thstolfi@gmail.com
+        <br>Linkedin: theilorstolfi | Github: thstolfi | Contato: (47) 9 9270-9832
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
